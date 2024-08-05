@@ -1,0 +1,158 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#admin{
+    display: flex;
+}
+#admin #adminfirstdiv{
+    background-color:rgb(128, 95, 47);
+    padding: 0px 70px 70px 10px;
+}
+
+#admin #adminfirstdiv #admintitle{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 30px 0px 40px 60px;
+}
+#admin #adminfirstdiv #dashboardname{
+    margin: 80px 0px 0px 10px;
+}
+#admin #adminfirstdiv #dashboardname a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#admin #adminfirstdiv #insertname{
+    margin: 60px 0px 0px 10px;
+}
+#admin #adminfirstdiv #insertname a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#admin #adminfirstdiv #tablename{
+    margin: 60px 0px 0px 10px;
+}
+#admin #adminfirstdiv #tablename a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#admin #adminfirstdiv #cardsname{
+    margin: 60px 0px 0px 10px;
+}
+#admin #adminfirstdiv #cardsname a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#admin #adminfirstdiv #teamname{
+    margin: 60px 0px 0px 10px;
+}
+#admin #adminfirstdiv #teamname a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#admin #adminfirstdiv #signup{
+    margin: 50px 0px 0px 10px;
+}
+#admin #adminfirstdiv #signup a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    background-color: white;
+}
+#admin #adminfirstdiv #login{
+    margin: 40px 0px 0px 10px;
+}
+#admin #adminfirstdiv #login a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    background-color: white;
+    border-radius: 50px;
+}
+#admin #adminseconddiv{
+    display: flex;
+    background-color: rgb(128, 95, 47);
+    padding: 20px 50px 20px 50px;
+    height: 40px;
+}
+#admin #adminseconddiv #dashboard{
+    color: rgb(199, 197, 197);
+    font-size: 30px;
+    font-weight: bolder;
+}
+#admin #adminseconddiv #name{
+    color: rgb(199, 197, 197);
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0px 0px 0px 622px;
+}
+#admin #table table{
+    width: 1195px;
+    border:2px solid black;
+    border-collapse:collapse ;
+}
+#admin #table table th{
+    font-size: 20px;
+    padding: 12px 0px;
+    background-color: rgb(74, 74, 138);
+}
+#admin #table table td{
+    font-size: 17px;
+    padding: 8px 0px;
+    text-align: center;
+}
+#admin #table table td:nth-child(odd){
+    background-color: rgb(177, 242, 242);
+}
+#admin #table table td:nth-child(even){
+    background-color:rgb(97, 154, 135);
+}
+#editform {
+    display: none;
+    position: absolute;
+    top: 300px;
+    right: 500px;
+    background-color: rgb(128, 95, 47);
+    padding: 10px 30px 40px 30px;
+    border-radius: 15px;
+
+}
+#editform #cross{
+    padding: 5px 0px 10px 0px;
+    margin-left: 240px;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+#editform #cross:hover{
+    color: white;
+}
+
+#editform input[type="text"]{
+    width: 230px;
+    padding: 10px;
+    margin-top: 12px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+#editform input[type="submit"]{
+    padding: 10px 20px;
+    margin: 12px 0px 0px 80px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}

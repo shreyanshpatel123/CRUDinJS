@@ -1,0 +1,22 @@
+{
+  "student": [
+    {
+      "id": "6",
+      "namee": "rajan",
+      "email": "rajan@gmail.com",
+      "address": "mujjafarnagar"
+    },
+    {
+      "id": "2",
+      "namee": "dmd;sc;s",
+      "email": "patelyash5935@gmail.com",
+      "address": "ydhs"
+    },
+    {
+      "id": "1",
+      "namee": "yash",
+      "email": "patel@gmail.com",
+      "address": "bhola"
+    }
+  ]
+}

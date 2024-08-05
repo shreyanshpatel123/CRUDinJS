@@ -1,0 +1,132 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;  
+}
+#admin{
+    display: flex;
+}
+#admin #adminfirstdiv{
+    background-color: rgb(128, 95, 47);
+    padding: 0px 70px 70px 10px;
+}
+
+#admin #adminfirstdiv #admintitle{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 30px 0px 40px 50px;
+}
+#admin #adminfirstdiv #dashboardname{
+    margin: 80px 0px 0px 10px;
+}
+#admin #adminfirstdiv #dashboardname a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#admin #adminfirstdiv #insertname{
+    margin: 60px 0px 0px 10px;
+}
+#admin #adminfirstdiv #insertname a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#admin #adminfirstdiv #tablename{
+    margin: 60px 0px 0px 10px;
+}
+#admin #adminfirstdiv #tablename a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#admin #adminfirstdiv #cardsname{
+    margin: 60px 0px 0px 10px;
+}
+#admin #adminfirstdiv #cardsname a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#admin #adminfirstdiv #teamname{
+    margin: 60px 0px 0px 10px;
+}
+#admin #adminfirstdiv #teamname a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#admin #adminfirstdiv #signup{
+    margin: 50px 0px 0px 10px;
+}
+#admin #adminfirstdiv #signup a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    background-color: white;
+}
+#admin #adminfirstdiv #login{
+    margin: 40px 0px 0px 10px;
+}
+#admin #adminfirstdiv #login a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    background-color: white;
+    border-radius: 50px;
+}
+#admin #adminseconddiv{
+    display: flex;
+    background-color: rgb(128, 95, 47);
+    padding: 20px 50px 20px 50px;
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+#admin #adminseconddiv #dashboard{
+    color: rgb(199, 197, 197);
+    font-size: 30px;
+    font-weight: bolder;
+}
+#admin #adminseconddiv #name{
+    color: rgb(199, 197, 197);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#admin #form{
+    margin: 10% 25% 0 25%;
+}
+#admin #form form{
+    background-color: rgb(128, 95, 47);
+    padding: 30px 30px 20px 30px;
+    border-radius: 10px;
+
+}
+input::placeholder{
+    font-size: 15px;
+}
+#admin #form input[type="number"],input[type="text"],input[type="email"]{
+    width: 450px;
+    padding: 15px 0px 15px 15px;
+    margin: 15px 0px 0px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#admin #form input[type="submit"]{
+    font-size: 20px;
+    margin: 15px 0px 0px 180px;
+    padding: 12px 35px 12px 35px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
